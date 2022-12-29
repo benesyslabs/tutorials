@@ -1,0 +1,144 @@
+# Transmission Control Protocol (TCP) #
+1. Transmission Control Protocol (TCP)
+	1. Transport protocol
+	2. Used on top of IP
+	3. **Ensures reliable transmission of packets**
+	4. It has mechanisms to **solve many problems that arise from packet-based messaging**
+		1. Problems solved:
+			1. **Lost packets**
+			2. **Out of order packets**
+			3. **Duplicate packets**
+			4. **Corrupted packets**
+	5. Internet stack is often referred to as TCP/IP
+
+## Packet Format ##
+1. TCP Segment:
+	1. Contains:
+		1. Header
+			1. Size: 20 bytes to 60 bytes (many more fields than UDP header)
+				1. Size varies with options field
+			2. Shares some fields with UDP header
+				1. Source port number
+				2. Destination port number
+				3. Checksum
+		2. Data
+
+## From Start to Finish ##
+1. The process of transmitting a packet with TCP/IP
+
+### Step 1: Establish Connection ###
+1. If two computers want to send data to each other over TCP, a connection must be established
+	1. Using **three-way handshake**
+	
+			[computer 1] -- SYN ----> [computer 2]
+			             <- ACK SYN -
+						 -- ACK ---->
+						 
+		1. One initiates connection, then both accept connection
+2. First computer sends a packet with **SYN** bit set to 1 (SYN = "synchronize?")
+3. Second computer sends back a packet with **ACK** bit set to 1 (ACK = "acknowledge!") + **SYN** bit set to 1
+4. First computer replies back with an **ACK**
+5. Header: (SYN and ACK bits are part of header)
+
+		<----------------- 4 bytes (32 bits) ----------------->
+		[ source port number        | destination port number ]
+		[                   sequence number                   ]
+		[                 Acknowledgement number              ]
+		[offset|Reserved|U|A|P|R|S|F|    window size          ]
+		[               |R|C|S|S|Y|I|                         ]
+		[               |G|K|H|T|N|N|                         ]
+		[     checksum              |    urgent pointer       ]
+		[                options/padding                      ]
+
+6. **The above 3 packets in three-way handshake do not typically include data**
+7. Next the computers are ready to receive actual data
+
+### Step 2: Send Packets of Data ###
+1. If sender sends a packet of data over TCP, **recipient must always acknowledge**
+	1. First computer sends a packet with **data** and **sequence number**
+	2. Second computer acknowledges it by setting **ACK** bit and increasing acknowledgement number by **length of received data**
+2. **Sequence number** and **acknowledgement number** are part of TCP header
+	1. **Used to keep track of**
+		1. **Which data was successfully recieved**
+		2. **Which data was lost**
+		3. **Which data was accidentally sent twice**
+
+### Step 3: Close the Connection ###
+1. **Either computer** can close connection when **they no longer want to send or receive data**
+2. Procedure:
+
+		[computer 1] ---- FIN --> [computer 2]
+					 <- ACK FIN - 
+					 ---- ACK -->
+					 
+	1. First Computer initiates closing the connection by sending a packet with **FIN** bit set to 1 (FIN = finish)
+	2. Second computer replies with **ACK** and **FIN** set to 1
+	3. Firt computer sends packet with **ACK** set to 1 (this closes the connection)
+
+## Detecting Lost Packets ##
+1. **Timeout is used**
+	1. Sender **starts a timer** after sending a packet &
+	2. Sender puts packet in **re-transmission queue**
+	3. If timer runs out and sender has not yet received an **ACK** from recipient
+		1. Sender sends packet again
+2. **Duplicate packets**
+	1. Re-transmission might result in recipient receivin a duplicate packet
+		1. If packet was not actually lost but was slow to arrive or be acknowledged
+	2. In this case, recipient discards the duplicate packet (sending data multiple times is better than not sending at all)
+
+## Handling Out of Order Packets ##
+1. **Sequence number** and **Acknowledgement number** are used for this purpose:
+
+		[computer 1] -- Seq #1 --> [computer 2]
+					 <- Ack #37 --
+					 -- Seq #73 ->
+					 <- Ack #37 --
+					 
+	1. If recipient sees higher sequence number than what they have acknowledged so far:
+		1. At-least one packet in between is missing
+	2. Above case:
+		1. Recipient sees sequence number of #73 but expected a sequence number of #37
+			1. Recipient sends to sender an acknowledgement number set to **expected sequence number**
+				1. Possibilities:
+					1. Missing packet is taking a slower route and eventually arrives
+					2. Missing packet is lost (sender must re-transmit)
+2. Out of order packets:
+	1. Recipient uses **sequence numbers** to re-assemble packet data in correct order 
+
+# User Datagram Protocol (UDP) #
+1. User Datagram Protocol (UDP)
+	1. **Lightweight** data transport protocol
+	2. Works **on top of IP**
+2. **Has mechanism to detect corrupt data in packets**
+	1. **Does not attempt to solve other problems**
+		1. **Lost packets**
+		2. **Out of order packets**
+3. It is un-reliable data protocol
+4. Advantages:
+	1. Simple
+	2. Fast (as compared to other protocols over IP)
+		1. Used for time-sensitive applications
+			1. Real-time video streaming (speed is more important than accuracy)
+
+## Packet Format ##
+1. Data portion of each IP packets is UDP segment
+2. UDP Packet format:
+
+		[    Source port number |   Destination port number  ]
+		[    Segment length     |         Checksum           ]
+		[                   Data                             ]
+		
+	1. Header length: 8 bytes
+	2. Data length: variable
+
+### Port Numbers ###
+1. First 4 bytes: Source & Destination port numbers
+2. Networked device can receive messages on different **virtual ports**
+	1. Ocean harbour can receive boats on different ports
+		1. Different ports can help distinguish different types of network traffic
+			1. Different processes listen on different ports
+
+### Segment Length ###
+1. 
+
+### Checksum ###

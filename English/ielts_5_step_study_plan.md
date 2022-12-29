@@ -1,0 +1,285 @@
+# IELTS - The 5 Step Study Plan #
+## Know the Test ##
+1. Structure of test (sections)
+	1. 4 sections
+		1. Listening
+			1. 4 sub-sections
+		2. Speaking
+			1. With native English speaker (f2f) (12-15 minutes)
+				1. Know what they are going to ask and what am I supposed to answer back
+		3. Writing
+			1. Two tasks
+		4. Reading
+			1. 3 passages
+2. Timing
+	1. Know how much time is given for each section and sub-sections
+		1. Listening
+			1. 40 minutes (10 minutes to copy answers to answer sheets)
+3. Question Types:
+	1. In each section (Do not have surprises on the test day)
+		1. Prepare for the types
+4. Directions
+	1. Every section has its own directions
+		1. Do not spend time reading them or listening to them during the test
+			1. Memorize them
+
+## Practice the Test ##
+1. Best way to know the test
+	1. Sit down at-least once a week for an entire test (3 full hours)
+		1. Cambridge papers (past papers, real tests)
+	2. Undistracted (no phone, no internet, ..., quiet root, locked inside, tell family and friends to not disturb)
+		1. Listening is for everybody - on speakers
+		2. Other sections are by ourselves
+	3. Speaking test:
+		1. May be few minutes, few hours later or on the next day (get used to that)
+	4. Learn focusing for long hours (at-least 3 hours)
+2. Speaking:
+	1. Get friends
+	2. Get someone online
+	3. Get someone to feed us the questions and practice answering them
+	4. Record & listen (try giving feedback)
+
+## Strategise ##
+1. Prepare a strategy:
+	1. What scores I need?
+		1. Overall
+			1. 6.5 say (each section does not matter)
+		2. Individual
+			1. Each section needs 7
+			2. 7 overall but 7.5 in writing and reading
+		3. How to know?
+			1. Visit University website
+			2. Visit Government website for immigration
+	2. What are the objectives?
+	3. Stretegy:
+		1. Overall:
+			1. We need 7 overall say but writing is weak
+				1. Aim for 6 in writing & 8 in reading (assuming at-least 7 in other sections)
+					1. Focus energy on strong skills & do enough in weak skills
+			2. We need 7 in individual sections
+				1. Work hard on weak skills
+					1. For most people - score lowest in writing section
+						1. Work on writing first (takes longest time to improve score on)
+							1. structure
+							2. vocabulary
+					2. If highest score on listening
+						1. Listen to TV shows, radio shows, ...
+						2. Listen to actual IELTS content (exercises and practice tests)
+		2. Reading:
+			1. Have a plan (for 3 passages & 40 minutes)
+				1. Don't read the entire passage and answer questions
+					1. Video on reading section
+			2. Second hardest
+		3. Speaking:
+			1. Need to be comfortable with practice with a native speaker
+				1. Speak to a native speaker (long before the test)
+			2. Get over if the interviewer doesn't smile
+			3. Construct an idea bank (for writing and speaking)
+				1. List of vocabulary
+					1. Write words related to education
+					2. Write words related to technology
+					3. ...
+				2. List of questions
+					1. Prepare a list of questions (going online or by thinking on our own)
+				3. List of ideas
+				4. List of examples (for different topics)
+			4. Example Topics:
+				1. Education
+				2. Health
+				3. Technology
+			5. Study the above and write essays before the test day
+				1. Don't try to think in the moment
+					1. You might panic
+				2. Have ideas ready in the head
+		4. No one needs 9. Few people need 8. 7.5 gets into most programs
+			1. We can miss a few questions and still get a score I need
+	
+## Practice and Feedback ##
+1. Practice individual sections
+	1. If we need min score in reading then practice reading
+		1. Read every day <- passive
+			1. To anything
+		2. listen every day <- passive (easier than active skills)
+			1. To anything
+		3. write everyday <- active (produce and express - much more practice, needs giving feedback)
+			1. Handwriting must be legible
+				1. Try not to write in script (use block letters)
+			2. We need someone to tell why we are getting 6.5 and not 7 say
+		4. speak everyday <- active
+			1. to yourself and record
+			2. Get transcript online and try to copy
+				1. Record, listen and compare
+	2. Focus on weakness - if individual score is important
+	3. Focus on strength - if overall score is important
+	4. We cannot practice for the test just a few days before
+		1. 3 months from now, start now
+	5. Know it is a mistake or else we might make the same mistake
+	6. Don't practice on test day
+2. Prepare mentally
+	1. It is an exercise in project management
+		1. Set goal (section wise, sub-section wise)
+		2. Prepare steps to take
+		3. Work towards reaching the goal
+	2. The tests show our ability to prepare, focus, to do what needs to be done
+		1. Know the structure of writing
+	3. Turn on English brain (during preparation)
+		1. Think in English
+		2. Do in English
+		3. Read in English
+		4. Listen in English
+	4. Don't study the night before (make sure the brain is prepared for the English that is coming to it)
+		1. Read comic book
+		2. Sports news paper
+		3. English lecture or song
+		4. Sitcom
+	5. Get full night sleep and be fresh
+	6. **Don't get coffee before getting to the test**
+		1. Have it much earlier
+			1. May lose focus
+	7. Eat protein
+		1. Eggs
+		2. ...
+	8. Don't be hungry and/or thirsty
+		1. Carry a bottle of water
+	9. Be fresh and ready for the test
+		1. Focus on English
+	10. Test centre
+		1. Go to the test centre a day or two or a week before
+			1. Know the place
+			2. Know how long it might take
+			3. Know the best root
+		2. Go early & relax
+		3. Don't talk to other test takers
+	11. Speaking
+		1. Graders are just doing the job
+			1. Don't let smile fool you
+	12. Do it well the first time
+3. Study material
+	1. Engvid
+		1. Search for IELTS
+	2. [www.writetotop.com](www.writetotop.com)
+		1. For grammar
+		2. For writing
+
+## IELTS Time Management ##
+1. Mind
+	1. Train (it is not just English)
+		1. Standardized tests:
+			1. Same setup
+			2. Same time
+			3. Same types of questions
+		2. Practice... (every day)
+			1. Listening
+				1. TV
+				2. YouTube
+				3. Internet
+			2. Speaking
+			3. Vocabulary - need lot of words for the test
+			4. Writing:
+				1. Note taking skills
+				2. Paraphrasing skills
+				3. Write legibly
+		3. Know the test
+			1. Instructions (know them beforehand)
+				1. Taken practice tests so many times that I know the instructions
+			2. Structure (doesn't change)
+				1. No surprises
+2. Body
+	1. Problems: Exhausted & mentally not prepared to take the test
+		1. Solution: Sleep the night before the test (full 8 hours of solid sleep)
+			1. Go to test centre relaxed
+			2. Make sure we eat well before going to the test
+				1. Carbs
+				2. Proteins
+				3. Avoid
+					1. Coffee (or have 1 hour before)
+					2. Sugar
+			3. Close eyes and relax during breaks between sections
+			4. Stretch in between
+			5. Strong and healthy body helps do well
+3. Sections:
+	1. Listening
+		1. 40 Questions -> 30 minutes
+			1. 4 sections
+				1. 1: 2 speakers
+					1. Be aware of shifts (two women or men speaking is not that easy)
+				2. 2: 1 speakers
+				3. 3: 2 speakers
+				4. 4: 1 speakers (lecture)
+					1. Often multiple choice
+		2. Look ahead (time) (in between sections)
+			1. don't read everything
+			2. Read around blanks (look for words to give a hint that answer is coming)
+				1. Paraphrasing skills are important
+			3. Multiple choice - identify Q words
+				1. Identify the main question word (what, who, when, where)
+					1. Listening for place?
+					2. Listening for time?
+					3. Listening for thing?
+					4. Listening for idea?
+			4. Numbers, names, milestones
+				1. Tables - missing numbers
+				2. Dates
+				3. Times
+				4. Names: Places, people, companies
+				5. Milestones: Getting to this point
+					1. Tells we have passed the previous question and we need to get ready for the next one
+						1. Don't try to figure out the previous questions
+		
+## Writing a Strong Conclusion for IELTS/TOEFL ##
+1. It is last impression we are giving to reader
+	1. No errors in grammar, ...
+2. There is a certain way to start conclusion. There are certain elements in and certain other elements that should not be in
+3. Expressions: (know one of the following and always use it)
+	1. In conclusion, ...
+	2. To conclude, ...
+	3. To sum up, ...
+	4. To summarize, ...
+	5. In summary, ...
+	6. Thus, with the above in mind, .../ it is fair to conclude that...
+	7. In the final analysis, ...
+4. Do not use the following:
+	1. Finally - it is a way to begin the last paragraph and not conclusion
+	2. Lastly
+	3. All in all - it is okay but little casual
+	4. As I have discussed above - weak introduction to conclusion
+5. Dos:
+	1. 
+	
+## How to Plan the IELTS Task 2 Essay ##
+1. Why plan?
+	1. Make sure you understand the task
+		1. Take some time to read the question
+	2. Construct a coherent path from thesis to conclusion
+		1. There must be a logical process from one to the next
+	3. Stay on track
+		1. Don't take tangent
+	4. Save time thinking
+		1. Take 3-5 minutes to plan
+			1. No much thinking is required while writing
+				1. We need to just putting the plan into words, sentences, paragraphs
+	5. Have your ideas ready to include at right spots
+		1. When we need to use the ideas in the essay, just plug them in
+	6. Have the vocab ready
+		1. Think about good words to use (big chunk of score)
+	7. Relax
+		1. Planning helps us to relax (just plan in the beginning)
+2. Not getting ideas:
+	1. Needs practice
+	2. Build an idea bank:
+		1. Books on idea bank: [https://writetotop.com/books/](https://writetotop.com/books/)
+		2. Topics:
+			1. Housing
+			2. Education
+			3. Health, Sports, and Nutrition
+			4. Business & Employment
+			5. Technology & the Internet
+			6. Government & Law
+### Process ###
+1. Step 1: Understand the Task
+	1. "Some people think that parents should discourage their children from pursuing an education in the arts. They aregue that children should instead focus on the maths and sciences as these are areas that can lead to good jobs and help society. Do you agree with this approach to education?"
+		1. Read carefully!
+			1. Say yes or no and support your answer
+			2. Argue about their belief
+	2. "As cities become more crowded and cars increasingly fill streets and highways, many people believe that local governments need to work harder to promote the use of public transit such as buses, trains, and subways. In many cases, though, the cost of doing this is too high or the public interest is too low. What can local governments do to make public transportation more attractive to residents? How can they fund these public transportation systems?"
+		1. 

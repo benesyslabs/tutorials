@@ -1,0 +1,198 @@
+# Rust Crash Course #
+1. Intro to fundamentals
+2. What rust is?
+3. Syntax
+4. How to install
+
+## What is Rust ##
+1. Extremely fast and powerful programming langauge
+2. Systems langauge
+	1. Other langauges
+		1. C
+		2. C++
+		3. Golang
+3. Application programming
+	1. User facing software
+4. Systems programming
+	1. Drivers
+	2. Compilers
+	3. Tools used for development
+	4. OS
+	5. ...
+5. How is Rust used in the web?
+	1. Using web-assembly
+		1. Web-assembly: wasm
+			1. Efficient low level bytecode for the web
+				1. Used to build secure, portable and very fast web applications
+				2. Uses C, C++, Rust
+			2. Integrates with JS tooling
+			3. Supports Ecmascript modules
+			4. Supports npm, webpack
+6. Garbage collection
+	1. Rust does not have GC
+	2. Rust doesn't need managing memory
+		1. C, C++ needs managing memory (difficult)
+		2. Rust checks on demand when needed
+			1. Compiler takes care of checking if memory reaches threshold and needs freeing
+7. Cargo - package manager
+8. Open rust-lang.org
+	1. Get started
+	2. Install - [https://www.rust-lang.org/learn/get-started](https://www.rust-lang.org/learn/get-started)
+		1. `rustup --version`
+			1. `rustup` - version manager
+			2. `rustup update` - checks updates
+		2. `rustc --version` (rust compiler)
+		3. `cargo --version` - package manager
+9. VS Code Extention:
+	1. Search for Rust
+		1. Install **Rust (rls)** extension (**rust-analyzer**)
+			1. Code completion
+			2. Linter
+	2. Open integrated terminal
+	3. `touch hello.rs`
+	
+			fn main() {
+				println!("Hello World");
+			}
+			
+		1. Compilation:
+		
+				rustc hello.rs
+				
+		2. Run:
+		
+				./hello
+				
+	4. Cargo:
+		1. `cargo new hello`
+		2. `cargo init` - new project in the current folder
+			1. `cargo.toml`
+				1. Better toml - extension
+				2. Has package info and dependencies
+			2. `.gitignore`
+			3. `src` - rust code
+				1. `main.rs`
+		3. `cargo run` - compile and run
+			1. `target/debug/rust_sandbox`
+		4. `cargo build` - compile but don't run
+		5. `cargo build --release` **(M)** - optimized for production
+10. `src/print.rs`
+
+		pub fn run() {
+			// Print to console
+			println!("Hello from the print.rs file!")
+		}
+		
+	1. `main.rs`
+	
+			mod print;
+			
+			fn main() {
+				print::run();
+			}
+		
+11. Formatting:
+
+		println!("{}", 1); // hint given by compiler. Needs placeholder to replace. Need to be in double quotes
+		
+12. Multiple placeholders
+	
+		println!("{} is from {}", "Brad", "Mass");
+		
+13. Positional arguments:
+
+		println!("{0} is from {1} and {0} likes to {2}", "Brad", "Mass", "code");
+		
+14. Named Arguments:
+
+		println!("{name} likes to play {activity}", name = "John", activity = "baseball");
+		
+15. Placeholder traits
+
+		println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
+		
+16. Placeholder for debug trait
+
+		println("{:?}", (12, true, "hello")); // passing a tuple
+		
+17. Basic math
+
+		println("10 + 10 = {}", 10 + 10);
+		
+## Types and Variables ##
+1. Variables are immutable by default
+2. Example: vars.rs
+	
+		// Variables hold primitive data or references to data
+		// Variables are immutable by default
+		// Rust is a block-scoped language - variable defined in function belongs to the function
+	
+		pub fn run() {
+			let name = "Brad";
+			let age = 37;
+			// let mut age = 38; // make it mutable
+			// age is not used before changing so we get warning
+			age = 38; // error: cannot assign twice to immutable variable
+			
+			println!("My name is {} and I am {}", name, age);
+			
+			// Define constant
+			const ID: i32 = 001; // const variable is uppercase
+			println!("ID: {}", ID);
+			
+			// Assign multiple vars
+			let ( my_name, my_age ) = ("Brad", 37);
+			println!("{} is {}", my_name, my_age);
+		}
+		
+		// main.rs
+		pub vars;
+		
+		fn main() {
+			vars::run();
+		}
+		
+3. Data types:
+	1. types.rs
+	
+			/*
+			Primitive Types -
+			Integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128 (number of bits they take in memory)
+			Floats: f32, f64
+			Boolean (bool)
+			Characters (char)
+			Tuples
+			Arrays - fixed length (vectors have variable length)
+			*/
+			
+			// Rust is a statically types language, which means that it must know the types of all
+			// variables at compile time, however, the compiler can usually infer what type we want to use
+			// based on the value and how we use it. (not required to set type for every variable but compiler will infer at times)
+	
+			pub fn run() {
+				let x = 1; // Default is "i32"
+				let y = 2.5; // Default is "f64"
+				// Add explicit type
+				let z: i64 = 34834834843;
+				
+				// Find max size
+				println!("Max i32: {}", std::i32::MAX); // std - library
+				println!("Max i64: {}", std::i64::MAX); // std - library
+				
+				// Boolean
+				let is_active : bool = true;
+				
+				// Get boolean from expression
+				let is_greater : bool = 10 > 5;
+				
+				println!("{:?}", (x, y, z, is_active, is_greater));
+				
+				let a1 = '';
+			}
+			
+			// main.rs
+			mod types;
+			
+			fn main() {
+			
+			}

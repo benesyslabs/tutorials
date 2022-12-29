@@ -1,0 +1,36 @@
+# Software Architecture #
+## Software Architecture Courses - Udemy ##
+1. Software Architecture & Technology of Large-Scale Systems
+2. Domain Driven Design & Microservices for Architects
+3. Design Microservices Architecture with Patterns & Principles
+4. Software Architecture Security - The Complete Guide
+5. Distributed Systems & Cloud Computing with Java
+6. Microsoft Azure: From Zero to Hero - The Complete Guide
+7. Software Architecture Interview Questions
+8. Database Design
+9. Advanced Objected Oriented Analysis of Hard Problems in UML
+10. Relational Database Design
+
+## Software Architecture Books ##
+1. Fundamentals of Software Architecture
+2. Software Architecture the Hard Parts
+3. Microservices Patterns
+4. Designing Data Intensive Applications
+5. Site Reliability Engineering
+6. System Design Interview
+7. Domain Driven Design with Spring Boot
+8. 100 Job Interview Questions - System Design
+9. NASA - Systems Engineering Handbook
+
+## Web Sites ##
+1. [https://microservices.io](https://microservices.io)
+2. [http://highscalability.com/](http://highscalability.com/)
+3. [System Design Primer](https://github.com/donnemartin/system-design-primer)
+
+# Enterprise Architecture Courses - Udemy #
+1. Standard 9.1- Part 2 Certified Enterprise Architect Course
+2. Part 1 and Part 2 Certification Exam Strategy
+3. Enterprise Architecture: How to Design Models & Diagrams
+
+## Archive ##
+1. Domain Driven Design: Complete Software Architecture Course

@@ -1,0 +1,2 @@
+# Business Automation Tools #
+1. [Zapier](https://zapier.com/?utm_source=google&utm_medium=cpc&utm_campaign=gaw-gbl-nua-video-vac-remarketing&utm_adgroup=vac_remarketing_visitors&utm_term=&utm_content=_pcrid_626436464126_pkw__pmt__pdv_c_slid__pgrid_140460297553_ptaid_aud-809502765494_&gclid=Cj0KCQiAgribBhDkARIsAASA5bs6PZOGEm236FKC7qNW_3LEvbmS9fVKb9VM-DztOHh51WNIvNuoI3kaAmdQEALw_wcB)

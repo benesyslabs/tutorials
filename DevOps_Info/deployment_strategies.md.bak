@@ -1,0 +1,83 @@
+# Deployment Strategies #
+## What is a Deployment Strategy? ##
+1. It involves series of steps in updating infrastructure nodes in production environment to optimize for
+	1. Application downtime
+	2. Customer feature blast radius
+	3. Operational and cost benefits of running the production stack
+2. Infrastructure Classification:
+	1. Compute
+	2. Messaging
+	3. Database layer
+3. Different deployment principles are applied for different class of infrastructure
+	1. Databases:
+		1. [Back compatibility](https://thorben-janssen.com/update-database-schema-without-downtime) in schema
+		2. Proper versioning
+		3. Avoiding deletion of columns/data
+	2. Messaging layer:
+		1. Backward compatible schema to passive nodes (while active layer is serving customer traffic)
+4. **Non-backward compatible changes**
+	1. Following techniques are used for version upgrade:
+		1. Data replication
+		2. Data backup
+		3. Data migration
+5. Scope of the blog: Compute layer
+	1. Choices:
+		1. Virtual machines
+		2. Kubernetes Pods
+		3. Docker containers
+	2. Principles used below are application to all choices
+	
+## Types of Deployment Strategies ##
+1. Key classification elements:
+	1. **% of the servers to which artifacts get deployed to**
+	2. **Downtime of application during deployment**
+	3. **No of live/dormant server fleets**
+	4. **Ability to rollback withing given SLA**
+2. Deployment strategies vary if the above factors are tuned
+
+### Traditional Deployment ###
+1. All servers of live/production stack are updated all at once with latest version of code
+	1. Drawbacks:
+		1. Prone to outages
+			1. Why? 
+				1. If rollout time is considerable
+				2. If it affects entire customer base with functional/non-functional bugs
+2. Where is this used?
+	1. Live traffic < 24-hour period
+		1. => Few hours of downtime is affordable
+			1. Lower cost as compared to other mission critical deployment strategies
+
+### Blue Green Deployment ###
+1. Two homogeneous stacks/fleets of compute instances are used
+2. Each stack/fleet has different versions of applications deployed
+3. Stacks are named **blue/green**
+4. Process:
+	1. New artifacts are promoted to **pre-live stack**
+	2. Basic validation of endpoints are completed
+	3. Stacks are flipped
+5. Where is it used?
+	1. Mission critical applications with **24x7** customer traffic
+6. Cons:
+	1. Heavy on **operational and cloud costs** of the architecture
+	2. Validation on **pre-live stack** is limited to basic sanity
+		1. Customer use-cases can be discovered on live stack
+
+### Canary Deployment ###
+1. Procedure:
+	1. Gradual deployment of newer version of artifacts to subset of compute fleets
+		1. The subset is called **canaries**
+2. Pros:
+	1. Helps to identify functional & non-functional issues on **smaller blast radius**
+	2. Cost optimal choice for mission critical applications as compared to blue-green deployment (?)
+3. Cons:
+	1. Automation pipelines involve rigorous automation
+	2. Automation pipelines need to avoid manual failure touchpoints in production rollout
+
+### A/B Deployment ###
+
+## Summary ##
+1. Balance between the following aspects is tricky choice for team:
+	1. Cost
+	2. Downtime
+	3. Automation/Operational Complexity
+2. **Defining the above early in Devops cycle helps measure all production deployments through the right metrics to enable data-based decisions in production deployments**

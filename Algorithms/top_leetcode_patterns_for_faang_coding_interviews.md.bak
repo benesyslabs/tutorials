@@ -1,0 +1,86 @@
+# Top LeetCode Patterns for FAANG Coding Interviews #
+1. Coding patterns enhance our ability to map a new problem to an already known problem
+2. **Focussing on coding patterns makes preparing for coding interviews easier**
+3. Coding patterns:
+	1. Sliding window
+	2. Two pointers
+	3. Two heaps
+	4. ...
+4. Coding patterns enables an engineer to map a new problem to an existing one
+5. Topic:
+	1. Coding patterns with highest ROI
+6. Grokking the coding interview:
+	1. 18 patterns for coding questions
+		1. Patterns help solve numerous coding problems
+
+## LeetCode Problems Distribution ##
+1. 2k+ questions
+2. Each question can be tagged with one or more topics
+	1. Arrays
+	2. HashTables
+	3. Trees
+	4. ...
+3. Each question can be tagged with algorithm techniques:
+	1. Greedy
+	2. Divide and Conquer
+	3. Sorting
+	4. ...
+4. Each question can be tagged with coding patterns
+	1. Sliding window
+	2. Depth first search
+	3. Topological sort
+	4. ...
+5. Distribution:
+	1. Arrays - 1142 problems
+	2. Strings - 549 problems
+
+## Top Data Structures with Best ROI ##
+1. List of Data Structures with highest ROI:
+	1. Array (1142)
+	2. String (549)
+	3. Hash Table (392)
+	4. Tree (191)
+	5. Matrix (171)
+	6. Stack (128)
+	7. Heap or Priority Queue (107)
+	8. Graph (102)
+	9. Linked List (69)
+	10. Trie (44)
+
+## Top Algorithmic Techniques with Best ROI ##
+1. List of top algorithmic techniques with highest ROI
+	1. Dynamic Programming (383)
+	2. Sorting (253)
+	3. Greedy (248)
+	4. Binary Search (186)
+	5. Backtracking (91)
+	6. Recursion (44)
+	7. Divide and Conquer (38)
+
+## Top Coding Patterns with Best ROI ##
+1. Top coding patterns with highest ROI:
+	1. Depth First Search (250)
+	2. Breadth First Search (198)
+	3. Binary Search (186)
+	4. Two Pointers (147)
+	5. Sliding Window (72)
+	6. **Monotonic Stack** (44)
+	7. **Union Find** (63)
+	8. Memoization (32)
+	9. **Topological Sort** (28)
+	10. **Segment Tree** (27)
+
+## Best Coding Patterns with Highest ROI ##
+1. Patterns to Problem Category Mappings:
+	1. Two Pointers (Arrays, Strings, Fast & Slow Pointer)
+		1. Fast and slow pointers is a variation of two pointers
+2. Sliding Window (Arrays, Strings, Hash Tables)
+3. Tree and Graph Depth First Search (Matrix Traversal)
+	1. Most trees and graphs problems can be solved using Depth First Search (DFS)
+	2. Matrix traversal is DFS based pattern - covers most matrix related problems
+4. Tree and Graph Breadth First Search (Queue, Subsets, Matrix Traversal, Topological Sort)
+5. Binary Search (Arrays)
+6. Interval Merge
+7. Recursion/Backtracking
+
+## Conclusion ##
